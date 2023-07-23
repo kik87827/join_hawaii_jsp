@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* layout */
+.page_wrap.single_page{}
+.pgsg_header{background:#d13249;padding:23px;}
+.pgsg_htitle{max-width:1000px;margin:0 auto;padding:0 30px;font-size:37px;font-weight:500;color:#fff;text-align:center;}
+.pgsg_midsection{max-width:1000px;margin:0 auto;padding:55px 40px;box-sizing: border-box;}
+.pgsg_footer{color:#4d4d4d;padding:20px;font-size:16px;background:#f8f8f8;border-top:1px solid #d7d7d7;text-align:center;}
+.pgsg_fitem_list{}
+.pgsg_fitem_list > li{display:inline-block;margin:0 30px 5px 0;}
+.pgsg_fitem_list > li:last-of-type{margin-right:0;}
+.pgsg_ftcopy{}
+
+.pview_restb{border-top:2px solid #000000;}
+.pview_restr{display:flex;border-bottom:1px solid #c7c7c7;}
+.pview_cols_low{display:flex;flex-grow: 1;}
+.pview_resitem{display:flex;width:100%;height:100%;}
+.pview_resth{flex-shrink: 0;background:#f8f8f8;width:200px;padding:20px 0;text-align:center;display:flex;align-items:center;justify-content:center;}
+.pview_restd{flex-grow: 1;padding:20px;display:flex;align-items:center;}
+.pview_restd.type2{display:block;}
+.pview_mapimg{margin-top:10px;}
+.pview_wpsp{font-size:18px;color:#333333;font-weight:500;display:inline-block;word-break: keep-all;}
+.pview_rdata{font-size:20px;color:#2d2d2d;}
+.pview_restrin{display:flex;align-items: center;}
+.pview_restrin.define_grow{flex-grow: 1;}
+.pview_restrin.define_shrink{flex-shrink: 0;flex-basis: 40%;}
+.pvmid_titlow{text-align:center;padding:40px 0 20px 0;}
+.pvmid_tit{font-size:25px;letter-spacing: -.5px;color:#333333;font-weight:500;}
+.pnum_vtb_w{border-top:1px solid #000;}
+.pnum_vtb{display:table;width:100%;table-layout: fixed;}
+.pnum_vtr{display:table-row;}
+.pnum_cell{display:table-cell;vertical-align: middle;border-bottom:1px solid #c7c7c7;padding:20px 30px;}
+.pnum_cell.df_vtnum{background:#f8f8f8;text-align:center;width:65px;}
+.pnum_cell.df_vtdata01{width:20%}
+.pnum_cell.df_vtdata02{width:15%}
+.pnum_cell.df_vtdataelse{}
+.pnum_data{font-size:18px;color:#2d2d2d;}
+.pview_guide_box{margin-top:25px;border:1px solid #cecece;border-radius:10px;padding:25px;font-size:15px;color:#4e4e4e;line-height:1.8;}
+.pvg_midtit{font-weight:500;color:#000;margin-top:30px;}
+@media (max-width:1023px){
+    .pgsg_header{padding:15px;}
+    .pgsg_htitle{padding:0 20px;font-size:20px;}
+    .pgsg_midsection{padding:25px 20px;}
+    .pgsg_footer{padding:15px;font-size:14px;}
+    .pgsg_fitem_list{}
+    .pgsg_fitem_list > li{margin:0 10px 5px 0;}
+    .pgsg_ftcopy{}
+
+    .pview_restr{display:block}
+    .pview_resitem{display:flex;width:100%;height:auto;}
+    .pview_resth{padding:10px;width:30%}
+    .pview_restd{padding:15px;display:flex;align-items:center;}
+    .pview_wpsp{font-size:14px;}
+    .pview_rdata{font-size:14px;}
+    .pview_restrin{display:block;border-bottom:1px solid #c7c7c7}
+    .pview_restrin:last-of-type{border-bottom:0}
+    .pvmid_titlow{padding:30px 0 15px 0;}
+    .pvmid_tit{font-size:17px;letter-spacing: 0;}
+    .pnum_cell{padding:10px 15px;}
+    .pnum_cell.df_vtnum{width:30px;}
+    .pnum_cell.df_vtdata01{width:25%}
+    .pnum_cell.df_vtdata02{width:12%}
+    .pnum_cell.df_vtdataelse{}
+    .pnum_data{font-size:14px;}
+    .pview_guide_box{margin-top:15px;border-radius:7px;padding:15px;font-size:14px;}
+
+}
+/* // layout */
